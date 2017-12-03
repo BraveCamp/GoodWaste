@@ -32,7 +32,9 @@
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div> -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+    <div class="col">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html"><img src="img/favicon.png" alt="plastic bottle icon" height=50px width=50px> GoodWaste</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,29 +44,42 @@
 
     <!-- Address <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-black mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div> -->
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+        <div class="collapse navbar-collapse col" id="navbarResponsive">
             <ul class="navbar-nav mx-auto" id="navsize">
-                <li class="nav-item active px-lg-4">
+                <li class="nav-item active px-lg-3">
                     <a class="nav-link text-uppercase text-expanded" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item px-lg-4">
+                <li class="nav-item px-lg-3">
                     <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
                 </li>
-                <li class="nav-item px-lg-4">
+                <li class="nav-item px-lg-3">
                     <a class="nav-link text-uppercase text-expanded" href="donate.html">Donate</a>
                 </li>
-                <li class="nav-item px-lg-4">
+                <li class="nav-item px-lg-3">
                     <a class="nav-link text-uppercase text-expanded" href="helpout.html">Help Out</a>
                 </li>
-                <li class="nav-item px-lg-4">
+                <li class="nav-item px-lg-3">
                     <a class="nav-link text-uppercase text-expanded" href="shop.html">Shop</a>
                 </li>
-                <li class="nav-item px-lg-4">
+                <li class="nav-item px-lg-3">
                     <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
+        <br>
+        <div style="display: flex;align-items:center;justify-content:center">
+<div class="text-heading text-muted text-lg" id="motto">Where Waste is<strong> Useful</strong></div>
+        </div>
+    </div>
     </nav>
+    
+
+    <!--background video -->
+
+<video playsinline autoplay muted loop id="bgvid">
+        <source src="img/seagulls_on_the_beach.mp4" type="video/mp4">
+    </video>
 
     <div class="container">
 
@@ -112,7 +127,7 @@
             <div class="text-center mt-4">
                 <div class="text-heading text-muted text-lg">Welcome To</div>
                 <h1 class="my-2">GoodWaste</h1>
-                <div class="text-heading text-muted text-lg">Where Waste is <strong>Useful</strong></div>
+                
             </div>
         </div>
 
@@ -157,11 +172,21 @@
 
     </div>
     <!-- /.container -->
+    <!-- icons that include social media and contact info -->
+    <!-- mailto: for email and tel: for phone number -->
 
     <footer class="bg-faded text-center py-5">
-        <div class="container">
-            <p class="m-0">Copyright &copy; GoodWaste 2017</p>
-        </div>
+            <div class="container col">
+            <a href="https://www.facebook.com/goodwaste102/?ref=bookmarks">
+                <img src="img/facebook-icon.png" alt="facebook icon" width=30px height=30px
+                >
+            </a>
+            <a href="mailto:goodwaste102@gmail.com">
+                <img src="img/Gmail_Icon.png" alt="gmail icon" width=30px height=30px>
+            </a>
+                <p class="m-0">Copyright &copy; GoodWaste 2017</p>
+             
+            </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
